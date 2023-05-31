@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un compte</title>
+    <link rel="stylesheet" href="../css/pattern.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <form class="registration" method="post" id="form">
+        <h1>👋 Bienvenu-e!</h1>
+          <label class="pure-material-textfield-outlined">
+            <input placeholder="Nom" autocomplete="off" type="text" required name="name">
+          </label>
+
+          <label class="pure-material-textfield-outlined">
+            <input placeholder="Prénom" type="text" autocomplete="off" required name="firstname">
+          </label>
+
+        <label class="pure-material-textfield-outlined">
+            <input placeholder="Adresse mail" autocomplete="off" type="email" required name="email">
+        </label>
+
+        <label class="pure-material-textfield-outlined">
+          <input placeholder="Nom d'utilisateur" autocomplete="off" type="text" required name="username">
+      </label>
+      
+        <label class="pure-material-textfield-outlined">
+          <input placeholder="Mot de passe" type="password" name="password" required>
+        </label>
+
+        <label class="pure-material-textfield-outlined">
+            <input placeholder="Confirmer le mot de passe" type="password" required name="confirm_pass" size="20">          
+        </label>
+      
+        <label class="pure-material-radio">
+          <input type="radio" name="type" required value="client">
+          <span> Compte Client</span>
+        </label>
+      
+        <label class="pure-material-radio">
+          <input type="radio" name="type" required value="developpeur">
+          <span> Compte Développeur</span>
+        </label>
+      
+        <label class="pure-material-checkbox">
+          <input type="checkbox" required name="check-contrat">
+          <span> J'accepte le <a href="#" target="_blank" title="Actuellement il n'y a pas des termes de contrats">Contrat de Service</a></span>
+        </label>
+      
+        <button id="btn" class="pure-material-button-contained" type="submit">Créer un compte</button>
+        <div class="text sign-up-text">J'ai déja <a href="signin.html">un compte</a></div>
+      
+        <div class="done">
+          <h1>👌 Vous êtes prêt !</h1>
+          <a class="pure-material-button-text" href="signin.html">Terminer</a>
+        </div>
+        <div class="progress">
+          <progress class="pure-material-progress-circular" />
+        </div>
+    </form>
+
+    <div class="left-footer">
+        Created by InnovaSoc<br/>
+        <a href="#" target="_top">Twitter</a> &nbsp; | &nbsp;
+        <a href="#" target="_top">LinkedIn</a> &nbsp; | &nbsp;
+        <a href="#" target="_top">Github</a>
+    </div>    
+  
+    <script src="../Js/script.js"></script>
+</body>
+</html>
