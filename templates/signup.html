@@ -54,7 +54,7 @@
         <div class="text sign-up-text">J'ai déja <a href="signin.html">un compte</a></div>
       
         <div class="done">
-          <h1>👌 Vous êtes prêt !</h1>
+          <h1>👌 <span class="ready"></span></h1>
           <a class="pure-material-button-text" href="signin.html">Terminer</a>
         </div>
         <div class="progress">
@@ -63,12 +63,21 @@
     </form>
 
     <div class="left-footer">
-        Created by InnovaSoc<br/>
+        Créé par InnovaSoc<br/>
         <a href="#" target="_top">Twitter</a> &nbsp; | &nbsp;
         <a href="#" target="_top">LinkedIn</a> &nbsp; | &nbsp;
         <a href="#" target="_top">Github</a>
     </div>    
-  
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="../Js/script.js"></script>
+    <script>
+      const typed = new Typed('.ready', {
+        strings: ["Vous êtes prêt !"],
+        typeSpeed: 110,
+        backSpeed: 110,
+        fadeOut: true
+      });
+    </script>
 </body>
 </html>
