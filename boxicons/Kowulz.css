@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Kowulz';
+    src: url('fonts/Kowulz-Regular.eot');
+    src: url('fonts/Kowulz-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Kowulz-Regular.woff2') format('woff2'),
+         url('fonts/Kowulz-Regular.woff') format('woff'),
+         url('fonts/Kowulz-Regular.ttf')  format('truetype'),
+         url('fonts/Kowulz-Regular.svg#Kowulz') format('svg');
+}
